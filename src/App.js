@@ -9,11 +9,6 @@ function App() {
         <p>
           Welcome to Web Development Fall 2022 Grads
         </p>
-
-
-        <p>
-         awesome
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
