@@ -1,87 +1,139 @@
-body{
+body {
     background-color: black;
     font-family: Arial;
     color: white;
 }
 
-.wd-container{
+.wd-container {
     margin-left: 16px;
-    margin-right:16px;
-
+    margin-right: 16px;
+    border-left: solid 1px rgb(47, 51, 54);
+    border-right: solid 1px rgb(47, 51, 54);
 }
-.wd-search-bar{
-    opacity: 0.2;
+
+.wd-search-bar {
     border-radius: 50px;
     width: 50%;
     height: 50px;
     margin-left: 16px;
-    margin-right: 16px;
+    margin-right: 12px;
     padding-left: 40px;
     border-color: rgb(47, 51, 54);
     background-color: darkgray;
     font-size: 15px;
     font-weight: bold;
+    color: red;
 
 }
-.wd-tabs{
-    color: rgb(29,161,242);
+
+.wd-tabs {
+    color: rgb(47, 51, 54);
+    margin-left: 12px;
+    padding-left: 0px;
 }
-.wd-tabs li{
+
+.wd-tabs li {
     list-style-type: none;
     display: inline-block;
     padding: 16px;
 }
-.wd-tabs .wd-selected{
-    border-bottom: solid 4px;
-    border-color: rgb(29,161,242);
+
+.wd-tabs .wd-selected {
+    border-bottom: solid 2px;
+    border-color: rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
 }
-.wd-settings{
-    color: rgb(29,161,242);
+
+.wd-settings {
+    position: relative;
+    top: 5px;
+    color: rgb(29, 161, 242);
     text-decoration: none;
     font-size: 30px;
 }
-.wd-posts h4{
+
+.wd-posts h4 {
     color: rgb(110, 118, 125);
     font-size: 13px;
 }
-.wd-post-image{
+
+.wd-tweet-posts h4{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-post-image {
     width: 100px;
     height: 100px;
-    /*position: relative;*/
-    /*right: -16px;*/
     border-radius: 10px;
 }
-.wd-post-verified-badge{
+
+.wd-post-verified-badge {
     width: 15px;
     height: 15px;
     background-color: white;
     border-radius: 30px;
     display: inline-block;
 }
-.wd-posts{
-    border-bottom: 20px;
+
+.wd-posts {
     border-color: rgb(47, 51, 54);
     margin-bottom: 10px;
 }
-.wd-post-content{
+
+.wd-post-content {
     float: left;
     width: 50%;
 }
-.wd-image-container{
+
+.wd-image-container {
     position: relative;
     left: 300px;
 }
-.wd-navbar{
+
+.wd-navbar {
     position: relative;
 }
-.wd-navbar .fa-solid{
+
+.wd-navbar .fa-solid {
     position: relative;
     left: 45px;
 }
-.wd-nav-tabs,.wd-suggested-posts > .wd-posts,.wd-tweets{
-    border-bottom: solid 1px rgb(47,51,54);
+
+.wd-nav-tabs, .wd-suggested-posts > .wd-posts, .wd-tweets {
+    border-bottom: solid 1px rgb(47, 51, 54);
 }
-/*.wd-suggested-posts > .wd-posts{*/
-/*    border-bottom: solid 1px rgb(47,51,54);*/
-/*}*/
+
+.wd-heading {
+    color: white;
+}
+
+.wd-tweets{
+    padding-left: 16px;
+}
+.wd-posts{
+    padding-left: 16px;
+}
+
+.wd-tweet-posts{
+    border-color: rgb(47, 51, 54);
+    margin-bottom: 10px;
+}
+.wd-tweet-posts > h4{
+    margin-bottom: 5px;
+
+}
+.wd-tweet-posts > h3{
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.wd-tweet-posts :nth-child(3) {
+    margin-top: 5px;
+}
+
+.wd-selected{
+    padding-bottom: 16px;
+
+}
 
