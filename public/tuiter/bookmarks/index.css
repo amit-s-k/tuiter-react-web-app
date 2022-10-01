@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    font-family: Arial;
+    color: white;
+}
+.wd-bookmarks{
+    margin-left: 16px;
+    margin-top:12px;
+    position: relative;
+    margin-bottom: 12px;
+}
+.wd-bookmark-title{
+    font-size: 20px;
+    color: white;
+
+}
+.wd-bookmark-handle{
+    position: relative;
+    color: rgb(47,51,54);
+    font-size: 13px;
+    border-bottom: solid 1px rgb(47,51,54);
+    top: -15px;
+    font-weight: bolder;
+}
+.wd-profile-img{
+    border-radius: 24px;
+    width: 50px;
+    height: 50px;
+}
+.wd-bookmark-image-container{
+    float: left;
+    width: 5%;
+    margin-right:12px;
+}
+.wd-bookmark-author-content{
+    /*display: inline-block;*/
+    float: left;
+    width: 506px;
+    font-size: 15px;
+    color: white;
+    padding-right: 16px;
+}
+.wd-bookmark-author-content .wd-author-handle{
+    color: rgb(47,51,54);
+    font-size: 15px;
+}
+.wd-bookmark-author{
+    font-size: 15px;
+}
+.wd-bookmark-content-image{
+    width: 504px;
+    height: 264px;
+    border-radius: 20px;
+}
+.wd-image-title{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+.wd-img-title-content{
+    padding: 12px 12px 12px 12px;
+}
+.wd-image-desc{
+    color: rgb(47,51,54);
+}
+.wd-bookmark-img-title-container{
+    border-radius: 10px;
+    border: solid 1px rgb(47,51,54);
+}
+.wd-symbols{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-right: 15%;
+    text-align: center;
+}
+.wd-symbols-container{
+ padding-top: 12px;
+}
+/*.wd-symbols-link{*/
+/*    padding-right: 100px;*/
+
+/*}*/
+
