@@ -134,6 +134,16 @@ body {
 
 .wd-selected{
     padding-bottom: 16px;
+}
 
+.wd-posts > h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.wd-posts > h4{
+    margin-bottom: 5px;
+}
+.wd-posts :nth-child(3){
+    margin-top: 5px;
 }
 

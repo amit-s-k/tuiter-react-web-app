@@ -403,6 +403,12 @@ p#id-selector-2 {
     /*align-items: flex-end;*/
 }
 
+
+.flex-container8 > .flex-box {
+    flex-basis: 100%;
+}
+
+
 .flex-box {
     border: 5px gray solid;
     margin: 10px;
@@ -421,38 +427,38 @@ p#id-selector-2 {
 }
 
 
-/*@media (min-width: 0px)*/
-/*and (max-width: 600px) {*/
-/*    body {*/
-/*        background-color: yellow;*/
-/*    }*/
-/*    .media-query {*/
-/*        background-color: red;*/
-/*        color: white;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 600px)*/
-/*and (max-width: 1200px) {*/
-/*    body {*/
-/*        background-color: blue;*/
-/*        color: white;*/
-/*    }*/
-/*    .media-query {*/
-/*        background-color: yellow;*/
-/*        color: black;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 1200px)*/
-/*and (max-width: 1800px) {*/
-/*    body {*/
-/*        background-color: red;*/
-/*        color: white;*/
-/*    }*/
-/*    .media-query {*/
-/*        background-color: blue;*/
-/*        color: white;*/
-/*    }*/
-/*}*/
+@media (min-width: 0px)
+and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    .media-query {
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 600px)
+and (max-width: 1200px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+    .media-query {
+        background-color: yellow;
+        color: black;
+    }
+}
+@media (min-width: 1200px)
+and (max-width: 1800px) {
+    body {
+        background-color: red;
+        color: white;
+    }
+    .media-query {
+        background-color: blue;
+        color: white;
+    }
+}
 
 
 
