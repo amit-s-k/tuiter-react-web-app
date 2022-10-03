@@ -3,6 +3,9 @@ body {
     font-family: Arial;
     color: white;
 }
+body input::placeholder{
+    color: white;
+}
 
 .wd-container {
     margin-left: 16px;
@@ -27,7 +30,7 @@ body {
 }
 
 .wd-tabs {
-    color: rgb(47, 51, 54);
+    color: rgb(110, 118, 125);
     margin-left: 12px;
     padding-left: 0px;
 }
@@ -36,6 +39,7 @@ body {
     list-style-type: none;
     display: inline-block;
     padding: 16px;
+    padding-bottom: 2px;
 }
 
 .wd-tabs .wd-selected {
@@ -50,6 +54,8 @@ body {
     color: rgb(29, 161, 242);
     text-decoration: none;
     font-size: 30px;
+    right: -648px;
+    margin-right: 12px;
 }
 
 .wd-posts h4 {
@@ -66,6 +72,9 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 10px;
+    position: relative;
+    left: 607px;
+    margin-right: 16px;
 }
 
 .wd-post-verified-badge {
@@ -86,10 +95,10 @@ body {
     width: 50%;
 }
 
-.wd-image-container {
-    position: relative;
-    left: 300px;
-}
+/*.wd-image-container {*/
+/*    position: relative;*/
+/*    left: 300px;*/
+/*}*/
 
 .wd-navbar {
     position: relative;
@@ -145,5 +154,15 @@ body {
 }
 .wd-posts :nth-child(3){
     margin-top: 5px;
+}
+
+.wd-post-heading{
+    color: lightgray;
+}
+
+.wd-empty-gray-container{
+    background-color: rgb(47, 51, 54);
+    height: 15px;
+    margin-top: -22px;
 }
 
