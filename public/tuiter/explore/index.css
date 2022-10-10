@@ -7,26 +7,30 @@
 
     }
 }
+
 /*.wd-java{*/
 /*    border-radius: 100px;*/
 /*    width: 100%;*/
 /*    height: 70%;*/
 /*}*/
-.wd-search-icon{
+.wd-search-icon {
     position: absolute;
     top: 10px;
-    left: 30px ;
+    left: 30px;
 }
-.wd-main-img{
+
+.wd-main-img {
     width: 100%;
     height: 100%;
 }
-.wd-text-overlay{
+
+.wd-text-overlay {
     position: absolute;
     bottom: 0px;
     left: 5px;
 }
-.wd-react{
+
+.wd-react {
     width: 100%;
     height: 80%;
 }

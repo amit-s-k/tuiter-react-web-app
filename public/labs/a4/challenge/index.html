@@ -20,13 +20,13 @@
 </head>
 <body>
 <div class="container wd-black-background">
-    <div class="row">
+    <div class="row ms-0 me-0">
         <div class="col-sm-2 col-lg-1 col-xl-2 mt-2">
             <ul class="list-group">
                 <li class="wd-black-background list-group-item list-group-item-action text-decoration-none ps-3 pe-3">
                     <a
                             href="#"><i
-                            class="fa-brands fa-twitter"></i></a></li>
+                            class="fa-brands fa-twitter fa-inverse"></i></a></li>
                 <li class="wd-black-background  list-group-item list-group-item-action ps-3 pe-3"><a
                         class="text-white text-decoration-none" href="#">
                     <i class="me-2 fa-solid fa-house"></i><span
@@ -71,7 +71,11 @@
                 </li>
             </ul>
 
-            <button class="btn btn-primary rounded-pill mt-2">Tuit</button>
+
+            <button class="w-100 wd-tuit-color text-white btn btn-primary rounded-pill mt-2">Tuit
+            </button>
+
+
         </div>
 
         <div class="wd-main-container col-sm-10 col-lg-7 col-xl-6 mt-2">
@@ -79,7 +83,7 @@
                 <div class="col-sm-9 col-md-10 position-relative">
                     <i class="wd-search-icon fa-solid fa-magnifying-glass fa-inverse"></i>
                     <input aria-describedby="basic-addon1" aria-label="Username"
-                           class="form-control rounded-pill bg-dark ps-5 ms-4 mt-2"
+                           class="wd-search-bar form-control rounded-pill bg-dark ps-5 ms-4 mt-2"
                            placeholder="Search Tuiter"
                            type="text">
                 </div>
@@ -110,8 +114,8 @@
                 </li>
                 <li class="nav-item d-none d-sm-none d-md-block">
                     <a class="ms-md-1 me-md-1 ps-xl-1 pe-xl-1 ps-lg-0 pe-lg-0 nav-link text-decoration-none"
-                        href="#"><span
-                        class="fw-bold wd-entertainment-text">Entertainment</span></a>
+                       href="#"><span
+                            class="fw-bold wd-entertainment-text">Entertainment</span></a>
                 </li>
             </ul>
 
@@ -184,16 +188,16 @@
 
         </div>
 
-        <div class="d-none d-lg-block col-md-4 mt-2">
+        <div class="d-none d-lg-block col-lg-4 mt-2 wd-follow-padding">
 
             <ul class="row wd-border-radius list-group wd-follow">
-                <li class="wd-follow-color list-group-item list-group-item-action text-decoration-none pb-1">
+                <li class=" bg-dark wd-follow-color list-group-item list-group-item-action text-decoration-none pb-1">
                     <a
                             class="text-decoration-none text-white fw-bold"
                             href="#">Who
                         to follow</a></li>
 
-                <li class="list-group-item pb-0">
+                <li class="bg-dark list-group-item pb-0">
                     <div class="row">
                         <img class="wd-java col-lg-3 col-xl-2 col-xxl-2 ps-lg-0 pe-lg-0 ms-lg-0 me-lg-2 ps-xl-1 pe-xl-1"
                              src="../../../images/babylon.png">
@@ -201,35 +205,38 @@
                         <div class="col-lg-6 col-xl-6 ps-lg-0 pe-lg-0 ps-xl-1 pe-xl-1">
                             <span class="fw-bold">The Babylon Bee <i
                                     class="fa-sharp fa-solid fa-circle-check"></i>
-                                <p class="fw-normal">@TheBabylonBee</p>
+                                <p class="fw-normal text-secondary">@TheBabylonBee</p>
                             </span>
                         </div>
                         <div class="col-lg-3 col-xl-3">
-                            <button class="ms-lg-2 ms-xl-4 rounded-pill btn btn-primary" type="button">Follow
+                            <button class="ms-lg-2 ms-xl-4 rounded-pill btn btn-light fw-bold"
+                                    type="button">Follow
                             </button>
                         </div>
                     </div>
                 </li>
 
-                <li class="list-group-item pb-0">
+                <li class="bg-dark list-group-item pb-0">
                     <div class="row">
 
-<!--                        <div class="col-lg-3 col-xl-2">-->
-                            <img class="wd-java col-lg-3 col-xl-2 col-xxl-2 ps-lg-0 pe-lg-0 ms-lg-0 me-lg-2 ps-xl-1 pe-xl-1" src="../../../images/jack.jpg">
-<!--                        </div>-->
+                        <!--                        <div class="col-lg-3 col-xl-2">-->
+                        <img class="wd-java col-lg-3 col-xl-2 col-xxl-2 ps-lg-0 pe-lg-0 ms-lg-0 me-lg-2 ps-xl-1 pe-xl-1"
+                             src="../../../images/jack.jpg">
+                        <!--                        </div>-->
                         <div class="col-lg-6 col-xl-6 ps-lg-0 pe-lg-0 ps-xl-1 pe-xl-1">
                             <span class="fw-bold wd-font-size">Jack Posobiec <i
                                     class="fa-sharp fa-solid fa-circle-check"></i>
-                                <p class="fw-normal">@JackPosobiec</p>
+                                <p class="fw-normal text-secondary">@JackPosobiec</p>
                             </span>
                         </div>
                         <div class="col-lg-3 col-xl-3">
-                            <button class="ms-lg-2 ms-xl-4 rounded-pill btn btn-primary" type="button">Follow
+                            <button class="ms-lg-2 ms-xl-4 rounded-pill btn btn-light fw-bold"
+                                    type="button">Follow
                             </button>
                         </div>
                     </div>
                 </li>
-                <li class="list-group-item pb-4">
+                <li class="bg-dark list-group-item pb-4">
                     <a class="card-link text-decoration-none wd-blue-color" href="#">Show more</a>
                 </li>
 
