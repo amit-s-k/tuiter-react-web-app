@@ -5,9 +5,11 @@ const  NavigationSidebar = (page) =>{
     if(page ==="HomeScreen"){
         console.log("In the home screen")
         activeHome = true;
+        activeExplore = false;
     }else if(page === "explore"){
         console.log("In the explore screen")
         activeExplore = true;
+        activeHome = false;
     }
 
 
