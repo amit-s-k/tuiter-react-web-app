@@ -3,7 +3,7 @@ const TodoItem = (todo) => {
        <li>
        <input type="checkbox" ${todo.done ? 'checked': ''}>
         ${todo.title}
-        ${todo.status}
+        (${todo.status})
        </li>
        
    `);

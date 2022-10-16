@@ -204,7 +204,6 @@ const changeStyle2 = $('.change-style');
 changeStyle.css('color' , 'red');
 changeStyle2.css('color' , 'blue');
 
-$("#change-style").append("<p>Test</p>");
 
 
 const getIdAttr = $("#get-id-attr");

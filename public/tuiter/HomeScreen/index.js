@@ -13,7 +13,7 @@ function homeComponent() {
         ${NavigationSidebar(screenName)}
       </div>
     
-        <div class="bg-light col-sm-10 col-lg-7 col-xl-6 mt-2 rounded-2">
+        <div class="col-sm-10 col-lg-7 col-xl-6 mt-2 rounded-2">
         ${PostList()}
         </div>
        <div class="d-none d-lg-block col-lg-4 mt-2">
