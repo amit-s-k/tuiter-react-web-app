@@ -2,7 +2,7 @@ const  NavigationSidebar = (page) =>{
     let activeHome = false;
     let activeExplore = false;
 
-    if(page ==="HomeScreen"){
+    if(page ==="HomeScreen" || page ==="homescreen"){
         console.log("In the home screen")
         activeHome = true;
         activeExplore = false;
