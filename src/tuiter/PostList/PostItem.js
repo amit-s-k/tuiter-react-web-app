@@ -24,6 +24,7 @@ const PostItem = (
             <div className="row pt-2 wd-post-border border-secondary">
             
                 <div className="col-1 mt-2">
+
                     <img alt="" className="wd-avatar-image" src={`${postItem.avatarIcon}`}/>
                 </div>
                 <div className="col-10 ms-2">
