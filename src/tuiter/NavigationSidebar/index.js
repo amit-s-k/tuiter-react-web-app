@@ -10,9 +10,9 @@ const  NavigationSidebar = () =>{
         <>
             <ul className="list-group">
 
-                <li className="list-group-item list-group-item-action text-decoration-none ps-3 pe-3"><a
+                <li className="list-group-item list-group-item-action text-decoration-none ps-3 pe-3"><a href="/some"
                         ><i
-                        className="fa-brands fa-twitter" href="/some"></i></a></li>
+                        className="fa-brands fa-twitter"></i></a></li>
                 <Link to="/tuiter/home" className= {`list-group-item ps-3 pe-3 ${active === 'home'?'active':''}`}><a
                         className="text-dark text-decoration-none" href="/some"><i
                         className="me-2 fa-solid fa-house "></i><span className="d-none d-xl-inline-block">Home</span></a>
