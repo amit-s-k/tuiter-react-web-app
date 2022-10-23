@@ -18,12 +18,12 @@ const  NavigationSidebar = (page) =>{
                 <li class="list-group-item list-group-item-action text-decoration-none ps-3 pe-3"><a
                         href="#"><i
                         class="fa-brands fa-twitter"></i></a></li>
-                <li class="list-group-item ${activeHome?'active':''} ps-3 pe-3"><a
+                <li class="list-group-item ${activeHome ? 'active' : ''} ps-3 pe-3"><a
                         class="text-white text-decoration-none" href="../HomeScreen/index.html"><i
                         class="me-2 fa-solid fa-house "></i><span class="d-none d-xl-inline-block">Home</span></a>
                 </li>
-                <li class="list-group-item ${activeExplore?'active':''} ps-3 pe-3"><a
-                        class="text-white text-decoration-none" href="../explore/index.html"><i
+                <li class="list-group-item ${activeExplore ? 'active' : ''} ps-3 pe-3"><a
+                        class="text-white text-decoration-none" href="../explore/index2.html"><i
                         class="me-2 fa-sharp fa-solid fa-hashtag "></i><span
                         class="d-none d-xl-inline-block"
                         id="#explore">Explore</span></a>
