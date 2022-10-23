@@ -24,7 +24,7 @@ const PostItem = (
             <div className="row pt-2 wd-post-border border-secondary">
             
                 <div className="col-1 mt-2">
-                    <img className="wd-avatar-image" src={`${postItem.avatarIcon}`}/>
+                    <img alt="" className="wd-avatar-image" src={`${postItem.avatarIcon}`}/>
                 </div>
                 <div className="col-10 ms-2">
                     <div className="row mt-2">
@@ -33,7 +33,7 @@ const PostItem = (
                     </div>
                     <div className="row wd-image-caption-div border-secondary ms-2">
 
-                            <img className="wd-image border-secondary mb-2 ps-0 pe-0" src={`${postItem.postImage}`}/>
+                            <img alt="" className="wd-image border-secondary mb-2 ps-0 pe-0" src={`${postItem.postImage}`}/>
 
                         <p className="text-dark">{postItem.postImageCaption}</p>
                         <p>{postItem.postImageText}</p>

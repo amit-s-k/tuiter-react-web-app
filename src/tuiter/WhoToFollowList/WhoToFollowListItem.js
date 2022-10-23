@@ -15,7 +15,7 @@ const WhoToFollowListItem = (
 return (
     <li className="list-group-item pb-0">
                         <div className="row">
-                        <img className="wd-java col-lg-3 col-xl-2 col-xxl-2 ps-lg-0 pe-lg-0 ms-lg-0 me-lg-2 ps-xl-1 pe-xl-1"
+                        <img alt="" className="wd-java col-lg-3 col-xl-2 col-xxl-2 ps-lg-0 pe-lg-0 ms-lg-0 me-lg-2 ps-xl-1 pe-xl-1"
                              src={`${who.avatarIcon}`}/>
 
                         <div className="col-lg-6 col-xl-6 ps-lg-0 pe-lg-0 ps-xl-1 pe-xl-1">

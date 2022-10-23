@@ -58,7 +58,7 @@ const PostSummaryList = (
 
                         </div>
                         <div className="col-2">
-                            <img className="wd-react rounded" src={`${post.image}`}/>
+                            <img alt="" className="wd-react rounded" src={`${post.image}`}/>
                         </div>
                     </div>
 

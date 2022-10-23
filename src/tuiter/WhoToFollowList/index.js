@@ -9,8 +9,7 @@ const WhoToFollowList = () => {
     return (
     <ul className="list-group">
        <li className="list-group-item list-group-item-action text-decoration-none pb-1"><a
-                        className="text-decoration-none text-dark fw-bold"
-                        href="#">Who
+                        className="text-decoration-none text-dark fw-bold">Who
                     to follow</a>
        </li>
         {

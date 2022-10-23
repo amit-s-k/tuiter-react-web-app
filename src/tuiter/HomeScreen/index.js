@@ -1,4 +1,3 @@
-import NavigationSidebar from "../NavigationSidebar/index.js";
 import PostSummaryList from "../PostSummaryList/PostSummaryList.js";
 import PostList from "../PostList/PostList.js";
 import React from "react";
