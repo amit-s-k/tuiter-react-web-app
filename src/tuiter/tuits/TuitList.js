@@ -1,4 +1,3 @@
-import Tuits from "./tuits.json"
 import React from "react";
 import TuitItem from "./TuitItem.js";
 import {useSelector} from "react-redux";
