@@ -37,6 +37,7 @@ const tuitClickHandler = ()=>{
                     <div className={"col-2"}><button onClick={tuitClickHandler} className={"btn btn-primary rounded-pill"}>Tuit</button></div>
                 </div>
             </div>
+            <hr className={"mt-2"}/>
 
         </div>
     );

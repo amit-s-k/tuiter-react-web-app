@@ -31,7 +31,7 @@ const TuitItem = (
             
                 <div className="col-1 mt-2">
 
-                    <img alt="" className="wd-avatar-image" src={`${tuitItem.avatarIcon}`}/>
+                    <img alt="" className={"wd-avatar-image rounded-circle"} src={`${tuitItem.avatarIcon}`}/>
                 </div>
                 <div className="col-10 ms-2">
                     <div className="row mt-2">

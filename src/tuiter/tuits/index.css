@@ -6,9 +6,8 @@
     border-bottom: solid 1px;
 }
 .wd-avatar-image{
-    border-radius: 24px;
-    width: 150%;
-    height: 15%;
+    width: 50px;
+    height: 50px;
 }
 .wd-image-caption-div{
     border-radius: 10px;
