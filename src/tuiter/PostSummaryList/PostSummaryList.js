@@ -1,4 +1,3 @@
-// import Posts from "./posts.json";
 import PostSummaryListItem from "./PostSummaryListItem.js";
 import {useSelector} from "react-redux";
 const PostSummaryList = () =>{
@@ -7,10 +6,7 @@ const PostSummaryList = () =>{
     <ul className="list-group">
         {
             Posts.map(item => <PostSummaryListItem post={item}/>)
-
         }
-
-
     </ul>
 
     )

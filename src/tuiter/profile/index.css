@@ -1,0 +1,23 @@
+.wd-user{
+    height: 27%;
+    width: 22%;
+    position: relative;
+    bottom: 50px;
+    left: 2%;
+}
+.wd-banner{
+    height: 50%;
+    width: 100%;
+}
+.wd-row-height{
+    height: 50%;
+}
+.wd-row-edit-height{
+    height: 35%;
+}
+.wd-widthSize{
+    width:100%
+}
+input:focus{
+    outline: none;
+}

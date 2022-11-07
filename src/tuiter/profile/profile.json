@@ -1,0 +1,13 @@
+{
+  "name": "Amit Kulkarni",
+  "handle": "@amitsk",
+  "profilePicture": "../../images/oswald.jpg",
+  "bannerPicture": "../../images/niagara.jpg",
+  "bio": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+  "location": "Boston, MA",
+  "dateOfBirth": "Born 22 Aug",
+  "dateJoined": "Joined April 2009",
+  "followingCount": 340,
+  "followersCount": 223,
+  "tuits": 6114
+}
