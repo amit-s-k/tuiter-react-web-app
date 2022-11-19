@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import "./index.css"
 import {useDispatch} from "react-redux";
-import {addTuit} from "../tuits/tuits-reducer"
 import {createTuitThunk} from "../../services/tuits-thunks";
 
 const WhatsHappening = ()=>{
@@ -36,7 +35,7 @@ const tuitClickHandler = ()=>{
                 tuit : "amit"
             }
     const newTuit = {
-        ... obj,
+        ...obj,
         postContent: whatsHappening
     }
     disPatch(createTuitThunk(newTuit));
