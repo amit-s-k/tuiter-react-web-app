@@ -2,7 +2,8 @@ import React from "react";
 import "./index.css"
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer"
+// import {deleteTuit} from "./tuits-reducer"
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 const TuitItem = (
 
     {
@@ -22,7 +23,7 @@ const TuitItem = (
 ) => {
     const  dispatch = useDispatch();
     const deleteTuitHandler = (id)=>{
-        dispatch(deleteTuit(id))
+        dispatch(deleteTuitThunk(id))
     }
 
 
@@ -43,7 +44,7 @@ const TuitItem = (
                         </h6>
                         <p className="text-dark">{tuitItem.postContent}</p>
                     </div>
-                    <TuitStats></TuitStats>
+                    <TuitStats tuitItem={tuitItem}></TuitStats>
 
                 </div>
             </div>
