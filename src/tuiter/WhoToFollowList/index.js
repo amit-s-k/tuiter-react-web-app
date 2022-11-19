@@ -15,7 +15,7 @@ const WhoToFollowList = () => {
                     to follow</a>
        </li>
         {
-            whoArray.map(item => <WhoToFollowListItem who={item}/>)
+            whoArray.map(item => <WhoToFollowListItem key={item} who={item}/>)
         }
 
 
