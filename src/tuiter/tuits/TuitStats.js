@@ -13,7 +13,9 @@ const TuitStats = (
             postImage: "../bookmarks/kgf2.jpg",
             postImageCaption: "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
             postImageText: "From training to launch to landing, this all access docuseries rides along with the Inspiration4 crew on the first crew on the first all-civilian orbital space ...",
-            likes: 0
+            likes: 0,
+            unlike: 0
+
         }
     }
 
@@ -26,37 +28,47 @@ const TuitStats = (
     const  likeHandler=()=>{
         toggleHeart = !toggleHeart;
         setToggle(toggleHeart)
+
         dispatch(updateTuitThunk({
-            ...tuitItem,
-            likes: tuitItem.likes+1
-        }));
+                                     ...tuitItem,
+                                     likes: tuitItem.likes+1
+                                 }));
     }
     const  unlikeHandler=()=>{
         toggleHeart = !toggleHeart;
-        setToggle(toggleHeart)
+        setToggle(toggleHeart);
+
         dispatch(updateTuitThunk({
                                      ...tuitItem,
-                                     likes: tuitItem.likes-1
+                                     unlike: tuitItem.unlike+1
                                  }));
     }
     return (
         <div className="row mt-3 mb-3">
 
-            <div className="col-3">
+            <div className="col-2">
                 <i className="fa-regular fa-comment"><span className="ms-3">4200</span> </i>
             </div>
-            <div className="col-3">
+            <div className="col-2">
                 <i className="fa-solid fa-retweet"><span className="ms-3">3500</span> </i>
             </div>
-            <div className="col-3">
+            <div className="col-2">
 
 
-                {toggleHeart && <i className="bi bi-heart-fill text-danger" onClick={unlikeHandler}></i>}
-                {!toggleHeart && <i className="bi bi-heart" onClick={likeHandler}></i>}
+                <i className="bi bi-heart-fill text-danger" onClick={likeHandler}></i>
+
 
                 <span className="ms-3">{tuitItem.likes}</span>
             </div>
-            <div className="col-3">
+            <div className="col-2">
+
+
+                <i className="bi bi-heart" onClick={unlikeHandler}></i>
+
+
+                <span className="ms-3">{tuitItem.unlike}</span>
+            </div>
+            <div className="col-2">
                 <i className="fa-solid fa-upload"></i>
             </div>
         </div>

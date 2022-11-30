@@ -7,7 +7,7 @@ const initialState = {
 
 const tuitsSlice = createSlice({
     name:"tuits",
-    initialState: initialState,
+    initialState,
     // reducers: {
     //     addTuit(state,action){
     //         const obj = {
@@ -60,15 +60,16 @@ const tuitsSlice = createSlice({
         },
         [updateTuitThunk.fulfilled]: (state, { payload }) => {
                 state.loading = false
-                const tuitNdx = state.tuits.findIndex((t) => t._id === payload._id)
+                const tuitNdx = state.tuits
+                    .findIndex((t) => t._id === payload._id)
                 state.tuits[tuitNdx] = {
                     ...state.tuits[tuitNdx],
                     ...payload
                 }
+
             }
     }
 });
-// export const {addTuit,deleteTuit} = tuitsSlice.actions
 export default tuitsSlice.reducer;
 
 

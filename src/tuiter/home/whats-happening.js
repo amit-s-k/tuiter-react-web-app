@@ -32,6 +32,7 @@ const tuitClickHandler = ()=>{
                 replies : 0,
                 retuits: 0,
                 likes: 0,
+                unlike:0,
                 tuit : "amit"
             }
     const newTuit = {
